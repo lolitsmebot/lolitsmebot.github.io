@@ -411,7 +411,7 @@
         }
 
         .player-image {
-            height: 220px;
+            height: 800px;
             background: linear-gradient(180deg, rgba(211, 47, 47, 0.2), var(--shark-black));
             display: flex;
             align-items: center;
