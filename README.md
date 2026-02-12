@@ -411,7 +411,7 @@
         }
 
         .player-image {
-            height: 300px;
+            height: 220px;
             background: linear-gradient(180deg, rgba(211, 47, 47, 0.2), var(--shark-black));
             display: flex;
             align-items: center;
@@ -1498,7 +1498,7 @@ img, svg { max-width:100%; height:auto; }
             <div class="roster-grid">
 <div class="player-card" data-position="goalies"
          data-age="—" data-height="—" data-weight="—" data-nation="—" data-role="Goalie">
-        <div class="player-image">🧤<div class="player-number">#—</div></div>
+        <div class="player-image"><img src="https://cdn.discordapp.com/emojis/1471586881337823407.webp?size=96"><div class="player-number">#—</div></div>
         <div class="player-info">
             <h3 class="player-name">Jacob Fowler</h3>
             <p class="player-position">Goalie</p>
@@ -1509,7 +1509,7 @@ img, svg { max-width:100%; height:auto; }
     </div>
 <div class="player-card" data-position="goalies"
          data-age="—" data-height="—" data-weight="—" data-nation="—" data-role="Goalie">
-        <div class="player-image"><img src="https://cdn.discordapp.com/emojis/1471586881337823407.webp?size=96"><div class="player-number">#—</div></div>
+        <div class="player-image">🧤<div class="player-number">#—</div></div>
         <div class="player-info">
             <h3 class="player-name">Antoine Bibeau</h3>
             <p class="player-position">Goalie</p>
