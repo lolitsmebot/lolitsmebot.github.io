@@ -1514,7 +1514,7 @@ img, svg { max-width:100%; height:auto; }
     </div>
 <div class="player-card" data-position="goalies"
          data-age="—" data-height="—" data-weight="—" data-nation="—" data-role="Goalie">
-        <div class="player-image">🧤<div class="player-number">#—</div></div>
+        <div class="player-image"><img src="https://cdn.discordapp.com/emojis/1472590657653837988.webp?size=96" class="player-photo"><div class="player-number">#—</div></div>
         <div class="player-info">
             <h3 class="player-name">Antoine Bibeau</h3>
             <p class="player-position">Goalie</p>
@@ -1525,7 +1525,7 @@ img, svg { max-width:100%; height:auto; }
     </div>
 <div class="player-card" data-position="goalies"
          data-age="—" data-height="—" data-weight="—" data-nation="—" data-role="Goalie">
-        <div class="player-image">🧤<div class="player-number">#—</div></div>
+        <div class="player-image"><img src="https://cdn.discordapp.com/emojis/1472594954932060408.webp?size=96" class="player-photo"><div class="player-number">#—</div></div>
         <div class="player-info">
             <h3 class="player-name">Antoine Keller</h3>
             <p class="player-position">Goalie</p>
@@ -1583,6 +1583,17 @@ img, svg { max-width:100%; height:auto; }
         <div class="player-image">🛡️<div class="player-number">#—</div></div>
         <div class="player-info">
             <h3 class="player-name">Pierre Crinon</h3>
+            <p class="player-position">Defense</p>
+            <div class="player-stats">
+                <div class="player-stat"><span class="player-stat-value">3</span><span class="player-stat-label">G</span></div><div class="player-stat"><span class="player-stat-value">12</span><span class="player-stat-label">A</span></div><div class="player-stat"><span class="player-stat-value">15</span><span class="player-stat-label">PTS</span></div><div class="player-stat"><span class="player-stat-value">+6</span><span class="player-stat-label">+/-</span></div>
+            </div>
+        </div>
+    </div>
+<div class="player-card" data-position="defense"
+         data-age="—" data-height="—" data-weight="—" data-nation="—" data-role="Defense">
+        <div class="player-image">🛡️<div class="player-number">#—</div></div>
+        <div class="player-info">
+            <h3 class="player-name">Yohann Auvitu</h3>
             <p class="player-position">Defense</p>
             <div class="player-stats">
                 <div class="player-stat"><span class="player-stat-value">3</span><span class="player-stat-label">G</span></div><div class="player-stat"><span class="player-stat-value">12</span><span class="player-stat-label">A</span></div><div class="player-stat"><span class="player-stat-value">15</span><span class="player-stat-label">PTS</span></div><div class="player-stat"><span class="player-stat-value">+6</span><span class="player-stat-label">+/-</span></div>
