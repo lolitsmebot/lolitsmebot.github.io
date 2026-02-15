@@ -1606,7 +1606,7 @@ img, svg { max-width:100%; height:auto; }
     </div>
 <div class="player-card" data-position="forwards"
          data-age="—" data-height="—" data-weight="—" data-nation="—" data-role="Forward">
-        <div class="player-image">⚡<div class="player-number">#—</div></div>
+        <div class="player-image"><img src="https://cdn.discordapp.com/emojis/1472594825638576198.webp?size=4096" class="player-photo"><div class="player-number">#—</div></div>
         <div class="player-info">
             <h3 class="player-name">Alexandre Texier</h3>
             <p class="player-position">Forward</p>
@@ -1617,7 +1617,7 @@ img, svg { max-width:100%; height:auto; }
     </div>
 <div class="player-card" data-position="forwards"
          data-age="—" data-height="—" data-weight="—" data-nation="—" data-role="Forward">
-        <div class="player-image">⚡<div class="player-number">#—</div></div>
+        <div class="player-image"><img src="https://cdn.discordapp.com/emojis/1472594724270641295.webp?size=4096" class="player-photo"><div class="player-number">#11</div></div>
         <div class="player-info">
             <h3 class="player-name">Alex Barré-Boulet</h3>
             <p class="player-position">Forward</p>
@@ -1628,7 +1628,7 @@ img, svg { max-width:100%; height:auto; }
     </div>
 <div class="player-card" data-position="forwards"
          data-age="—" data-height="—" data-weight="—" data-nation="—" data-role="Forward">
-        <div class="player-image">⚡<div class="player-number">#—</div></div>
+        <div class="player-image"><img src="https://cdn.discordapp.com/emojis/1472594532234428559.webp?size=4096" class="player-photo"><div class="player-number">#—</div></div>
         <div class="player-info">
             <h3 class="player-name">Ty Ronning</h3>
             <p class="player-position">Forward</p>
@@ -1639,7 +1639,7 @@ img, svg { max-width:100%; height:auto; }
     </div>
 <div class="player-card" data-position="forwards"
          data-age="—" data-height="—" data-weight="—" data-nation="—" data-role="Forward">
-        <div class="player-image">⚡<div class="player-number">#—</div></div>
+        <div class="player-image"><img src="https://cdn.discordapp.com/emojis/1472594497828556831.webp?size=4096" class="player-photo"><div class="player-number">#—</div></div>
         <div class="player-info">
             <h3 class="player-name">Daniel Carr</h3>
             <p class="player-position">Forward</p>
@@ -1650,7 +1650,7 @@ img, svg { max-width:100%; height:auto; }
     </div>
 <div class="player-card" data-position="forwards"
          data-age="—" data-height="—" data-weight="—" data-nation="—" data-role="Forward">
-        <div class="player-image">⚡<div class="player-number">#—</div></div>
+        <div class="player-image"><img src="https://cdn.discordapp.com/emojis/1472590816878006352.webp?size=4096" class="player-photo"><div class="player-number">#—</div></div>
         <div class="player-info">
             <h3 class="player-name">Pierre-Édouard Bellemare</h3>
             <p class="player-position">Forward</p>
@@ -1661,7 +1661,7 @@ img, svg { max-width:100%; height:auto; }
     </div>
 <div class="player-card" data-position="forwards"
          data-age="—" data-height="—" data-weight="—" data-nation="—" data-role="Forward">
-        <div class="player-image">⚡<div class="player-number">#—</div></div>
+        <div class="player-image"><img src="https://cdn.discordapp.com/emojis/1472595120036515943.webp?size=4096" class="player-photo"><div class="player-number">#—</div></div>
         <div class="player-info">
             <h3 class="player-name">Evan Barratt</h3>
             <p class="player-position">Forward</p>
@@ -1672,7 +1672,7 @@ img, svg { max-width:100%; height:auto; }
     </div>
 <div class="player-card" data-position="forwards"
          data-age="—" data-height="—" data-weight="—" data-nation="—" data-role="Forward">
-        <div class="player-image">⚡<div class="player-number">#—</div></div>
+        <div class="player-image"><img src="https://cdn.discordapp.com/emojis/1472594469147639819.webp?size=4096" class="player-photo"><div class="player-number">#—</div></div>
         <div class="player-info">
             <h3 class="player-name">Alexandre Grenier</h3>
             <p class="player-position">Forward</p>
