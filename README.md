@@ -1470,15 +1470,15 @@ img, svg { max-width:100%; height:auto; }
             
             <div class="hero-stats">
                 <div class="hero-stat">
-                    <span class="hero-stat-value">4th</span>
+                    <span class="hero-stat-value">3th</span>
                     <span class="hero-stat-label">Pacific</span>
                 </div>
                 <div class="hero-stat">
-                    <span class="hero-stat-value">18-12-3</span>
+                    <span class="hero-stat-value">12-7-0</span>
                     <span class="hero-stat-label">Record</span>
                 </div>
                 <div class="hero-stat">
-                    <span class="hero-stat-value">39</span>
+                    <span class="hero-stat-value">24</span>
                     <span class="hero-stat-label">Points</span>
                 </div>
             </div>
@@ -1540,7 +1540,7 @@ img, svg { max-width:100%; height:auto; }
     </div>
 <div class="player-card" data-position="defense"
          data-age="—" data-height="—" data-weight="—" data-nation="—" data-role="Defense">
-        <div class="player-image">🛡️<div class="player-number">#—</div></div>
+        <div class="player-image"><img src="https://cdn.discordapp.com/emojis/1472594693312483359.webp?size=4096" class="player-photo"><div class="player-number">#—</div></div>
         <div class="player-info">
             <h3 class="player-name">Jacob Larsson</h3>
             <p class="player-position">Defense</p>
@@ -1551,7 +1551,7 @@ img, svg { max-width:100%; height:auto; }
     </div>
 <div class="player-card" data-position="defense"
          data-age="—" data-height="—" data-weight="—" data-nation="—" data-role="Defense">
-        <div class="player-image">🛡️<div class="player-number">#—</div></div>
+        <div class="player-image"><img src="https://cdn.discordapp.com/emojis/1472594655290855484.webp?size=4096" class="player-photo"><div class="player-number">#—</div></div>
         <div class="player-info">
             <h3 class="player-name">Jack St. Ivany</h3>
             <p class="player-position">Defense</p>
@@ -1562,7 +1562,7 @@ img, svg { max-width:100%; height:auto; }
     </div>
 <div class="player-card" data-position="defense"
          data-age="—" data-height="—" data-weight="—" data-nation="—" data-role="Defense">
-        <div class="player-image">🛡️<div class="player-number">#—</div></div>
+        <div class="player-image"><img src="https://cdn.discordapp.com/emojis/1472594616279765003.webp?size=4096" class="player-photo"><div class="player-number">#—</div></div>
         <div class="player-info">
             <h3 class="player-name">William Villeneuve</h3>
             <p class="player-position">Defense</p>
@@ -1573,7 +1573,7 @@ img, svg { max-width:100%; height:auto; }
     </div>
 <div class="player-card" data-position="defense"
          data-age="—" data-height="—" data-weight="—" data-nation="—" data-role="Defense">
-        <div class="player-image">🛡️<div class="player-number">#—</div></div>
+        <div class="player-image"><img src="https://cdn.discordapp.com/emojis/1472594914255700181.webp?size=4096" class="player-photo"><div class="player-number">#—</div></div>
         <div class="player-info">
             <h3 class="player-name">Jules Boscq</h3>
             <p class="player-position">Defense</p>
@@ -1584,7 +1584,7 @@ img, svg { max-width:100%; height:auto; }
     </div>
 <div class="player-card" data-position="defense"
          data-age="—" data-height="—" data-weight="—" data-nation="—" data-role="Defense">
-        <div class="player-image">🛡️<div class="player-number">#—</div></div>
+        <div class="player-image"><img src="https://cdn.discordapp.com/emojis/1472594578027843747.webp?size=4096" class="player-photo"><div class="player-number">#—</div></div>
         <div class="player-info">
             <h3 class="player-name">Pierre Crinon</h3>
             <p class="player-position">Defense</p>
@@ -1595,7 +1595,7 @@ img, svg { max-width:100%; height:auto; }
     </div>
 <div class="player-card" data-position="defense"
          data-age="—" data-height="—" data-weight="—" data-nation="—" data-role="Defense">
-        <div class="player-image">🛡️<div class="player-number">#—</div></div>
+        <div class="player-image"><img src="https://cdn.discordapp.com/emojis/1472597567761289408.webp?size=4096" class="player-photo"><div class="player-number">#—</div></div>
         <div class="player-info">
             <h3 class="player-name">Yohann Auvitu</h3>
             <p class="player-position">Defense</p>
