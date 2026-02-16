@@ -1436,6 +1436,26 @@ img, svg { max-width:100%; height:auto; }
 
 
 
+
+/* ===== Pages (menu sans défilement) ===== */
+.page{display:none}
+.page.active{display:block}
+
+/* ===== Shop (emplacements images) ===== */
+.shop-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.shop-card{border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.04);border-radius:18px;padding:14px;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+.shop-card:hover{transform:translateY(-6px);border-color:rgba(211,47,47,.65);box-shadow:0 12px 40px rgba(211,47,47,.18)}
+.shop-media{height:170px;border-radius:14px;overflow:hidden;background:linear-gradient(180deg,rgba(211,47,47,.12),rgba(0,0,0,.35));display:grid;place-items:center;margin-bottom:10px}
+.shop-media img{width:100%;height:100%;object-fit:contain;display:block}
+.shop-title{margin:0;letter-spacing:.6px}
+.shop-meta{margin:6px 0 0 0;opacity:.75;font-size:12px}
+@media (max-width:980px){.shop-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.shop-grid{grid-template-columns:1fr}.shop-media{height:150px}}
+
+/* ===== Numéros joueurs un peu plus petits ===== */
+.player-number{font-size:38px !important}
+@media (max-width:520px){.player-number{font-size:30px !important}}
+
 </style>
 </head>
 <body>
@@ -1457,12 +1477,14 @@ img, svg { max-width:100%; height:auto; }
                 <a href="#standings" class="nav-link">Standings</a>
             <a class="nav-link" href="#teamstats">STATS</a>
                 <a href="#news" class="nav-link">News</a>
-            </nav>
+            
+  <a class="nav-link" href="#shop">SHOP</a>
+</nav>
         </div>
     </header>
 
     <!-- Hero -->
-    <section class="hero" id="home">
+    <section class="hero page" id="home">
         <div class="hero-content">
             <div class="hero-badge">AHL Pacific Division • 2025-2026 Season</div>
             <h1 class="hero-title">HAGUENAU SHARKS</h1>
@@ -1485,13 +1507,13 @@ img, svg { max-width:100%; height:auto; }
             
             <div style="margin-top: 40px;">
                 <a href="#roster" class="btn">VIEW ROSTER</a>
-                <a href="#" class="btn">BUY TICKETS</a>
+                <a href="#" class="btn">SHOP</a>
             </div>
         </div>
     </section>
 
     <!-- Roster -->
-    <section class="roster section" id="roster">
+    <section class="roster section page" id="roster">
         <div class="container">
             <h2 class="section-title">TEAM ROSTER</h2>
             <p class="section-subtitle">2025-2026 Season • 21 Players</p>
@@ -1787,7 +1809,7 @@ img, svg { max-width:100%; height:auto; }
 
 
     <!-- Standings - COMPLET avec 32 équipes AHL -->
-    <section class="standings section" id="standings">
+    <section class="standings section page" id="standings">
         <div class="container">
             <h2 class="section-title">AHL STANDINGS</h2>
             <p class="section-subtitle">2025-2026 Season</p>
@@ -2250,7 +2272,7 @@ img, svg { max-width:100%; height:auto; }
     </section>
 
     <!-- NEWS SECTION - COMPLÈTE -->
-    <section class="news section" id="news">
+    <section class="news section page" id="news">
         <div class="container">
             <h2 class="section-title">LATEST NEWS</h2>
             <p class="section-subtitle">Stay Updated with Sharks Hockey</p>
@@ -2367,7 +2389,7 @@ img, svg { max-width:100%; height:auto; }
     <!-- Footer -->
     
   <!-- TEAM STATS + CALENDAR -->
-  <section class="section sectionPad" id="teamstats">
+  <section class="section sectionPad page" id="teamstats">
     <div class="container">
       <h2 class="sectionTitle">TEAM STATS</h2>
       <p class="sectionSub">Buts marqués/encaissés, moyennes, special teams & calendrier officiel.</p>
@@ -2476,6 +2498,64 @@ img, svg { max-width:100%; height:auto; }
       </div>
     </div>
   </section>
+
+
+<section class="section sectionPad page" id="shop">
+  <div class="container">
+    <h2 class="sectionTitle">SHOP</h2>
+    <p class="sectionSub">Boutique officielle Haguenau Sharks — ajoute tes images dans <b>images/shop/</b> et remplace les <code>src</code>.</p>
+
+    <div class="shop-grid">
+      <article class="shop-card">
+        <div class="shop-media"><img src="images/shop/maillot-domicile-2025-2026.png" alt="Maillot domicile 2025/2026"></div>
+        <h3 class="shop-title">Maillot domicile 2025/2026</h3>
+        <p class="shop-meta"><code>images/shop/maillot-domicile-2025-2026.png</code></p>
+      </article>
+
+      <article class="shop-card">
+        <div class="shop-media"><img src="images/shop/maillot-exterieur-2025-2026.png" alt="Maillot extérieur 2025/2026"></div>
+        <h3 class="shop-title">Maillot extérieur 2025/2026</h3>
+        <p class="shop-meta"><code>images/shop/maillot-exterieur-2025-2026.png</code></p>
+      </article>
+
+      <article class="shop-card">
+        <div class="shop-media"><img src="images/shop/tshirt.png" alt="T-shirt"></div>
+        <h3 class="shop-title">T-shirt</h3>
+        <p class="shop-meta"><code>images/shop/tshirt.png</code></p>
+      </article>
+
+      <article class="shop-card">
+        <div class="shop-media"><img src="images/shop/hoodie.png" alt="Pull / Hoodie"></div>
+        <h3 class="shop-title">Pull / Hoodie</h3>
+        <p class="shop-meta"><code>images/shop/hoodie.png</code></p>
+      </article>
+
+      <article class="shop-card">
+        <div class="shop-media"><img src="images/shop/casquette.png" alt="Casquette"></div>
+        <h3 class="shop-title">Casquette</h3>
+        <p class="shop-meta"><code>images/shop/casquette.png</code></p>
+      </article>
+
+      <article class="shop-card">
+        <div class="shop-media"><img src="images/shop/bonnet.png" alt="Bonnet"></div>
+        <h3 class="shop-title">Bonnet</h3>
+        <p class="shop-meta"><code>images/shop/bonnet.png</code></p>
+      </article>
+
+      <article class="shop-card">
+        <div class="shop-media"><img src="images/shop/echarpe.png" alt="Écharpe"></div>
+        <h3 class="shop-title">Écharpe</h3>
+        <p class="shop-meta"><code>images/shop/echarpe.png</code></p>
+      </article>
+
+      <article class="shop-card">
+        <div class="shop-media"><img src="images/shop/palet.png" alt="Palet"></div>
+        <h3 class="shop-title">Palet</h3>
+        <p class="shop-meta"><code>images/shop/palet.png</code></p>
+      </article>
+    </div>
+  </div>
+</section>
 
 <footer class="footer" id="contact">
         <div class="container">
@@ -3626,6 +3706,34 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   });
+});
+</script>
+
+
+<script>
+/* ===== ROUTER (1 fichier, plusieurs pages) ===== */
+document.addEventListener("DOMContentLoaded", () => {
+  const ids = ["home","roster","standings","teamstats","news","shop"];
+  const sections = ids.map(id => document.getElementById(id)).filter(Boolean);
+  if(sections.length < 2) return;
+
+  function setActive(id){
+    sections.forEach(s => s.classList.toggle("active", s.id === id));
+    document.querySelectorAll('a.nav-link, nav a').forEach(a=>{
+      const href = (a.getAttribute("href")||"").trim();
+      if(href.startsWith("#")) a.classList.toggle("active", href === ("#"+id));
+    });
+    window.scrollTo({top:0, behavior:"smooth"});
+  }
+
+  function route(){
+    const h = (location.hash || "#home").replace("#","");
+    const id = ids.includes(h) ? h : (sections[0]?.id || "home");
+    setActive(id);
+  }
+
+  window.addEventListener("hashchange", route);
+  route();
 });
 </script>
 
