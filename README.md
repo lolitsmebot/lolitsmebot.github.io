@@ -1456,6 +1456,27 @@ img, svg { max-width:100%; height:auto; }
 .player-number{font-size:38px !important}
 @media (max-width:520px){.player-number{font-size:30px !important}}
 
+
+/* ===== Mobile sizing (more compact) ===== */
+@media (max-width: 520px){
+  .container{ padding-left: 14px !important; padding-right: 14px !important; }
+  .sectionPad{ padding: 38px 0 !important; }
+  .sectionTitle{ font-size: 40px !important; letter-spacing: 2px !important; }
+  .sectionSub{ font-size: 12px !important; }
+  .nav{ gap: 8px !important; padding: 10px 10px !important; }
+  .nav-link{ padding: 8px 10px !important; font-size: 12px !important; }
+  .heroTitle{ font-size: 44px !important; }
+  .player-card{ padding: 14px !important; }
+  .player-photo{ height: 210px !important; }
+  .player-name{ font-size: 22px !important; }
+  .player-position{ font-size: 12px !important; }
+  .badge{ transform: scale(.92); }
+  .shop-media{ height: 140px !important; }
+  .calRow{ padding: 12px !important; }
+  .tName{ font-size: 18px !important; }
+  .calScore{ font-size: 22px !important; }
+}
+
 </style>
 </head>
 <body>
@@ -3710,8 +3731,12 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 
 
+
 <script>
-/* ===== ROUTER (1 fichier, plusieurs pages) ===== */
+/* ===== ROUTER PRO (1 fichier, plusieurs pages) =====
+   - Affiche la rubrique immédiatement au clic (sans refresh)
+   - Fonctionne même si d'autres scripts écoutent les clics
+*/
 document.addEventListener("DOMContentLoaded", () => {
   const ids = ["home","roster","standings","teamstats","news","shop"];
   const sections = ids.map(id => document.getElementById(id)).filter(Boolean);
@@ -3719,21 +3744,39 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function setActive(id){
     sections.forEach(s => s.classList.toggle("active", s.id === id));
+    // highlight nav links
     document.querySelectorAll('a.nav-link, nav a').forEach(a=>{
       const href = (a.getAttribute("href")||"").trim();
-      if(href.startsWith("#")) a.classList.toggle("active", href === ("#"+id));
+      if(href.startsWith("#")){
+        a.classList.toggle("active", href.toLowerCase() === ("#"+id));
+      }
     });
     window.scrollTo({top:0, behavior:"smooth"});
   }
 
-  function route(){
-    const h = (location.hash || "#home").replace("#","");
-    const id = ids.includes(h) ? h : (sections[0]?.id || "home");
-    setActive(id);
+  function normalizeHash(){
+    const raw = (location.hash || "#home").toLowerCase().replace("#","");
+    return ids.includes(raw) ? raw : (sections[0]?.id || "home");
   }
 
-  window.addEventListener("hashchange", route);
-  route();
+  // Immediate click handling (capture) to avoid needing a refresh
+  document.addEventListener("click", (e)=>{
+    const a = e.target.closest('a[href^="#"]');
+    if(!a) return;
+    const h = (a.getAttribute("href")||"").trim().toLowerCase();
+    const id = h.replace("#","");
+    if(!ids.includes(id)) return;
+    e.preventDefault();
+    // Update URL hash without full jump
+    history.pushState(null, "", "#"+id);
+    setActive(id);
+  }, true);
+
+  window.addEventListener("hashchange", ()=> setActive(normalizeHash()));
+  window.addEventListener("popstate", ()=> setActive(normalizeHash()));
+
+  // First render (small delay to ensure CSS/fonts are applied)
+  setTimeout(()=> setActive(normalizeHash()), 0);
 });
 </script>
 
