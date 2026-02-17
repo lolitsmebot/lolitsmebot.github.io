@@ -1500,6 +1500,8 @@ img, svg { max-width:100%; height:auto; }
                 <a href="#news" class="nav-link">News</a>
             
   <a class="nav-link" href="#shop">SHOP</a>
+
+<a class="nav-link" href="#histoire">HISTOIRE & AVENIR</a>
 </nav>
         </div>
     </header>
@@ -3738,7 +3740,7 @@ document.addEventListener("DOMContentLoaded", () => {
    - Fonctionne même si d'autres scripts écoutent les clics
 */
 document.addEventListener("DOMContentLoaded", () => {
-  const ids = ["home","roster","standings","teamstats","news","shop"];
+  const ids = ["home","roster","standings","teamstats","news","shop","histoire"];
   const sections = ids.map(id => document.getElementById(id)).filter(Boolean);
   if(sections.length < 2) return;
 
@@ -3779,6 +3781,62 @@ document.addEventListener("DOMContentLoaded", () => {
   setTimeout(()=> setActive(normalizeHash()), 0);
 });
 </script>
+
+
+<section class="section sectionPad page" id="histoire">
+<div class="container">
+
+<h2 class="sectionTitle">Histoire & Avenir</h2>
+
+<h3>🦈 HISTOIRE — HAGUENAU SHARKS</h3>
+
+<p><b>🔥 La naissance d’une identité (1876)</b></p>
+<p>L’histoire des Haguenau Sharks débute en 1876 avec la création de l’équipe de hockey de Haguenau, portée par son premier président, Raymond Ernenwein. Dès ses origines, le club s’appuie sur des valeurs fortes : engagement, passion pour le sport et attachement profond à la ville et à ses supporters.</p>
+<p>À ses débuts, l’équipe évolue dans la dernière division française. Les moyens sont modestes, mais la détermination des joueurs et du staff permet aux Sharks de gravir progressivement les échelons du hockey national. Saison après saison, le club forge son identité et attire une communauté fidèle autour de lui.</p>
+
+<div class="image-placeholder">EMPLACEMENT IMAGE</div>
+
+<p><b>🏆 L’ascension vers l’élite et l’âge d’or (1984 – 1994)</b></p>
+<p>À partir de 1984, les Haguenau Sharks entrent dans une nouvelle dimension. Grâce à une génération exceptionnelle de joueurs et à une vision ambitieuse, l’équipe atteint la meilleure ligue française, aujourd’hui connue sous le nom de Ligue Magnus.</p>
+
+<div class="image-placeholder">EMPLACEMENT IMAGE</div>
+
+<p>Palmarès majeur :</p>
+<p>🥇 Championnat de France — 1986, 1988, 1989, 1992, 1994</p>
+<p>🏆 Coupe de France — 1985, 1986, 1990</p>
+
+<p><b>⚠️ Crise et reconstruction (1996 – 2002)</b></p>
+<p>Après des années de succès, le club traverse une période difficile. En 1996, les finances fragilisent fortement la structure sportive. En 1997, l’équipe est reléguée.</p>
+
+<div class="image-placeholder">EMPLACEMENT IMAGE</div>
+
+<p>En 2002, le club est racheté par les actionnaires Walter. Résultat : titre de champion remporté la même année, symbole d’une renaissance spectaculaire.</p>
+
+<div class="image-placeholder">EMPLACEMENT IMAGE</div>
+
+<p><b>🚀 Nouvelle ère et ambitions internationales (2007 – 2015)</b></p>
+<p>Florent Walter prend les rênes du club en 2007 avec une vision internationale.</p>
+
+<div class="image-placeholder">EMPLACEMENT IMAGE</div>
+
+<p><b>🌎 Le tournant américain (depuis 2015)</b></p>
+<p>Lucas Walter pousse l’ambition du club vers l’AHL. Le club s’installe dans le Colorado tout en conservant son nom historique.</p>
+
+<div class="image-placeholder">EMPLACEMENT IMAGE</div>
+
+<h3>🚧 PROJET & AVENIR — UNE FRANCHISE EN CONSTRUCTION</h3>
+
+<p>Les Haguenau Sharks entrent aujourd’hui dans une nouvelle phase de leur histoire : consolidation, croissance et ambition internationale.</p>
+
+<p>🏒 Construire une équipe durable et compétitive.</p>
+<p>🎓 Développer un centre de formation d’excellence.</p>
+<p>🌍 Une identité internationale forte.</p>
+<p>🏟️ Expérience supporters et développement du club.</p>
+
+<p><b>🏆 Objectif final :</b> devenir une équipe dominante en AHL et viser l’élite du hockey mondial.</p>
+
+</div>
+</section>
 
 </body>
 </html>
