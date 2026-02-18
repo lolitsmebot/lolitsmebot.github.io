@@ -2838,7 +2838,7 @@ img, svg { max-width:100%; height:auto; }
 
     <div class="shop-grid">
       <article class="shop-card">
-        <div class="shop-media"><img src="https://cdn.discordapp.com/attachments/000000000000000000/000000000000000000/PASTE_YOUR_IMAGE.png?size=1024" alt="Maillot domicile 2025/2026"></div>
+        <div class="shop-media"><img src="https://cdn.discordapp.com/emojis/1473084100977098863.webp?size=1024" alt="Maillot domicile 2025/2026"></div>
         <h3 class="shop-title">Maillot domicile 2025/2026</h3>
         <p class="shop-meta"><code>lien Discord (cdn.discordapp.com/...)</code></p>
       </article>
