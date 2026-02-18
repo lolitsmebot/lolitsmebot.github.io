@@ -2824,7 +2824,7 @@ img, svg { max-width:100%; height:auto; }
       <article class="shop-card">
         <div class="shop-media"><img src="images/shop/maillot-domicile-2025-2026.png" alt="Maillot domicile 2025/2026"></div>
         <h3 class="shop-title">Maillot domicile 2025/2026</h3>
-        <p class="shop-meta"><code>images/shop/maillot-domicile-2025-2026.png</code></p>
+        <p class="shop-meta"><code>https://cdn.discordapp.com/emojis/1473084100977098863.webp?size=4096</code></p>
       </article>
 
       <article class="shop-card">
