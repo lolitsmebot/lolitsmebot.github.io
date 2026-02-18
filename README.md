@@ -1477,6 +1477,298 @@ img, svg { max-width:100%; height:auto; }
   .calScore{ font-size: 22px !important; }
 }
 
+
+/* ===== Histoire & Avenir (timeline premium) ===== */
+.history-hero{
+  display:flex; gap:14px; align-items:center;
+  padding:16px 16px;
+  border:1px solid rgba(255,255,255,.12);
+  background: rgba(255,255,255,.04);
+  border-radius:18px;
+  box-shadow: 0 18px 50px rgba(0,0,0,.35);
+}
+.history-heroBadge{
+  width:54px;height:54px;border-radius:16px;
+  display:grid;place-items:center;
+  background: linear-gradient(180deg, rgba(211,47,47,.22), rgba(0,0,0,.35));
+  border:1px solid rgba(211,47,47,.35);
+  font-size:26px;
+}
+.history-title{
+  margin:0;
+  letter-spacing:3px;
+  font-family: 'Bebas Neue', cursive;
+  font-size:52px;
+}
+.history-sub{
+  margin:6px 0 0 0;
+  opacity:.8;
+  line-height:1.6;
+}
+.history-grid{
+  display:grid;
+  grid-template-columns: 1fr 320px;
+  gap:16px;
+  margin-top:14px;
+}
+.history-timeline{
+  position:relative;
+  padding-left:18px;
+}
+.history-timeline:before{
+  content:"";
+  position:absolute;
+  left:6px; top:8px; bottom:8px;
+  width:2px;
+  background: linear-gradient(180deg, rgba(211,47,47,.65), rgba(255,255,255,.08));
+  opacity:.9;
+}
+.history-card{
+  position:relative;
+  margin:14px 0;
+  border:1px solid rgba(255,255,255,.12);
+  background: rgba(255,255,255,.04);
+  border-radius:18px;
+  padding:14px;
+  box-shadow: 0 18px 45px rgba(0,0,0,.28);
+  overflow:hidden;
+}
+.history-card:before{
+  content:"";
+  position:absolute;
+  inset:-40px -40px auto auto;
+  width:160px; height:160px;
+  background: radial-gradient(circle at 30% 30%, rgba(211,47,47,.25), transparent 60%);
+  opacity:.9;
+}
+.history-card:after{
+  content:"";
+  position:absolute;
+  left:-7px; top:20px;
+  width:14px; height:14px;
+  border-radius:999px;
+  background: rgba(211,47,47,.85);
+  box-shadow: 0 0 0 4px rgba(211,47,47,.20);
+}
+.history-head{
+  display:flex; align-items:center; gap:12px;
+  position:relative;
+}
+.history-icon{
+  width:44px;height:44px;border-radius:14px;
+  display:grid;place-items:center;
+  background: rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.12);
+  font-size:22px;
+}
+.history-era{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:6px 10px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.14);
+  background: rgba(0,0,0,.28);
+  letter-spacing:1px;
+  font-weight:800;
+  font-size:12px;
+  opacity:.95;
+}
+.history-h3{
+  margin:10px 0 0 0;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing:2px;
+  font-size:30px;
+}
+.history-body{
+  position:relative;
+  margin-top:10px;
+  line-height:1.8;
+  opacity:.92;
+}
+.history-body p{ margin:10px 0; }
+.history-highlight{
+  margin:12px 0;
+  padding:12px 12px;
+  border-radius:14px;
+  border:1px solid rgba(211,47,47,.35);
+  background: rgba(211,47,47,.12);
+  font-weight:700;
+}
+.history-honors{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:10px;
+  margin:12px 0;
+}
+.honor{
+  border:1px solid rgba(255,255,255,.12);
+  background: rgba(255,255,255,.03);
+  border-radius:14px;
+  padding:10px;
+}
+.honorTitle{
+  font-weight:900;
+  letter-spacing:.5px;
+}
+.honorYears{
+  margin-top:6px;
+  opacity:.85;
+  font-size:12px;
+  line-height:1.7;
+}
+.history-mediaSlot{
+  margin:12px 0 18px 0;
+  border:1px solid rgba(255,255,255,.10);
+  background: rgba(255,255,255,.03);
+  border-radius:18px;
+  overflow:hidden;
+}
+.history-mediaTop{
+  display:flex; align-items:center; justify-content:space-between; gap:10px;
+  padding:10px 12px;
+  border-bottom:1px solid rgba(255,255,255,.08);
+  background: rgba(0,0,0,.22);
+}
+.history-mediaTag{
+  display:inline-flex; align-items:center;
+  padding:6px 10px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.14);
+  background: rgba(255,255,255,.04);
+  font-weight:800;
+  font-size:12px;
+}
+.history-mediaHint{
+  opacity:.75;
+  font-size:12px;
+}
+.history-mediaBox{
+  height:260px;
+  display:grid;
+  place-items:center;
+  position:relative;
+  background: linear-gradient(180deg, rgba(211,47,47,.10), rgba(0,0,0,.35));
+}
+.history-mediaBox.empty:before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: repeating-linear-gradient(45deg, rgba(255,255,255,.04), rgba(255,255,255,.04) 12px, rgba(255,255,255,.02) 12px, rgba(255,255,255,.02) 24px);
+  opacity:.45;
+}
+.history-img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+.history-empty{
+  position:absolute;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:8px;
+  opacity:.78;
+  text-align:center;
+  padding:12px;
+}
+.history-emptyIcon{ font-size:26px; }
+.history-emptyText{ font-weight:800; letter-spacing:.5px; }
+.history-mediaRow{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:12px;
+  margin:12px 0 18px 0;
+}
+.history-aside{
+  position:sticky;
+  top:86px;
+  height:fit-content;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+.aside-card{
+  border:1px solid rgba(255,255,255,.12);
+  background: rgba(255,255,255,.04);
+  border-radius:18px;
+  padding:12px;
+}
+.aside-title{
+  font-family:'Bebas Neue',cursive;
+  letter-spacing:2px;
+  font-size:24px;
+}
+.aside-text{
+  margin-top:8px;
+  opacity:.85;
+  line-height:1.7;
+  font-size:13px;
+}
+.history-future:before{
+  background: radial-gradient(circle at 30% 30%, rgba(255,255,255,.10), transparent 60%);
+}
+.future-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:12px;
+  margin:14px 0;
+}
+.future-card{
+  border:1px solid rgba(255,255,255,.12);
+  background: rgba(0,0,0,.18);
+  border-radius:18px;
+  padding:12px;
+}
+.future-ico{ font-size:22px; }
+.future-title{
+  margin-top:8px;
+  font-weight:900;
+  letter-spacing:.4px;
+}
+.future-list{
+  margin:10px 0 0 18px;
+  padding:0;
+  opacity:.9;
+  line-height:1.7;
+  font-size:13px;
+}
+.history-finalGoal{
+  margin-top:14px;
+  border:1px solid rgba(211,47,47,.35);
+  background: rgba(211,47,47,.10);
+  border-radius:18px;
+  padding:12px;
+}
+.goalTop{
+  font-family:'Bebas Neue',cursive;
+  letter-spacing:2px;
+  font-size:24px;
+}
+.goalText{
+  margin-top:8px;
+  font-weight:900;
+  line-height:1.7;
+}
+.goalSub{
+  margin-top:8px;
+  opacity:.9;
+  line-height:1.7;
+}
+@media (max-width: 980px){
+  .history-grid{ grid-template-columns: 1fr; }
+  .history-aside{ position:relative; top:auto; }
+}
+@media (max-width: 520px){
+  .history-title{ font-size:42px; }
+  .history-h3{ font-size:26px; }
+  .history-honors{ grid-template-columns: 1fr; }
+  .history-mediaRow{ grid-template-columns: 1fr; }
+  .history-mediaBox{ height:200px; }
+  .future-grid{ grid-template-columns: 1fr; }
+}
+
 </style>
 </head>
 <body>
@@ -3783,60 +4075,301 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 
 
+
 <section class="section sectionPad page" id="histoire">
-<div class="container">
+  <div class="container">
 
-<h2 class="sectionTitle">Histoire & Avenir</h2>
+    <div class="history-hero">
+      <div class="history-heroBadge">🦈</div>
+      <div>
+        <h2 class="history-title">HISTOIRE & AVENIR</h2>
+        <p class="history-sub">Haguenau Sharks — une identité forgée dans le temps, tournée vers l’élite.</p>
+      </div>
+    </div>
 
-<h3>🦈 HISTOIRE — HAGUENAU SHARKS</h3>
+    <div class="history-grid">
+      <div class="history-timeline">
 
-<p><b>🔥 La naissance d’une identité (1876)</b></p>
-<p>L’histoire des Haguenau Sharks débute en 1876 avec la création de l’équipe de hockey de Haguenau, portée par son premier président, Raymond Ernenwein. Dès ses origines, le club s’appuie sur des valeurs fortes : engagement, passion pour le sport et attachement profond à la ville et à ses supporters.</p>
-<p>À ses débuts, l’équipe évolue dans la dernière division française. Les moyens sont modestes, mais la détermination des joueurs et du staff permet aux Sharks de gravir progressivement les échelons du hockey national. Saison après saison, le club forge son identité et attire une communauté fidèle autour de lui.</p>
+        <article class="history-card">
+          <div class="history-head">
+            <div class="history-icon">🔥</div>
+            <div>
+              <div class="history-era">1876</div>
+              <h3 class="history-h3">La naissance d’une identité</h3>
+            </div>
+          </div>
+          <div class="history-body">
+            <p>L’histoire des Haguenau Sharks débute en <b>1876</b> avec la création de l’équipe de hockey de Haguenau, portée par son premier président, <b>Raymond Ernenwein</b>. Dès ses origines, le club s’appuie sur des valeurs fortes : engagement, passion pour le sport et attachement profond à la ville et à ses supporters.</p>
+            <p>À ses débuts, l’équipe évolue dans la dernière division française. Les moyens sont modestes, mais la détermination des joueurs et du staff permet aux Sharks de gravir progressivement les échelons du hockey national. Saison après saison, le club forge son identité et attire une communauté fidèle autour de lui.</p>
+          </div>
+        </article>
 
-<div class="image-placeholder">EMPLACEMENT IMAGE</div>
+        <div class="history-mediaSlot">
+          <div class="history-mediaTop">
+            <div class="history-mediaTag">Image • 1876</div>
+            <div class="history-mediaHint">Remplace par ton image : <code>images/histoire/1876.png</code></div>
+          </div>
+          <div class="history-mediaBox">
+            <img class="history-img" src="images/histoire/1876.png" alt="Haguenau Sharks 1876 (à remplacer)" onerror="this.style.display='none'; this.parentElement.classList.add('empty');">
+            <div class="history-empty">
+              <div class="history-emptyIcon">🖼️</div>
+              <div class="history-emptyText">Dépose ton image ici</div>
+            </div>
+          </div>
+        </div>
 
-<p><b>🏆 L’ascension vers l’élite et l’âge d’or (1984 – 1994)</b></p>
-<p>À partir de 1984, les Haguenau Sharks entrent dans une nouvelle dimension. Grâce à une génération exceptionnelle de joueurs et à une vision ambitieuse, l’équipe atteint la meilleure ligue française, aujourd’hui connue sous le nom de Ligue Magnus.</p>
+        <article class="history-card">
+          <div class="history-head">
+            <div class="history-icon">🏆</div>
+            <div>
+              <div class="history-era">1984 – 1994</div>
+              <h3 class="history-h3">L’ascension vers l’élite & l’âge d’or</h3>
+            </div>
+          </div>
+          <div class="history-body">
+            <p>À partir de <b>1984</b>, les Haguenau Sharks entrent dans une nouvelle dimension. Grâce à une génération exceptionnelle de joueurs et à une vision ambitieuse, l’équipe atteint la meilleure ligue française, aujourd’hui connue sous le nom de <b>Ligue Magnus</b>.</p>
+            <p>Cette période marque l’âge d’or du club.</p>
 
-<div class="image-placeholder">EMPLACEMENT IMAGE</div>
+            <div class="history-honors">
+              <div class="honor">
+                <div class="honorTitle">🥇 Championnat de France</div>
+                <div class="honorYears">1986 • 1988 • 1989 • 1992 • 1994</div>
+              </div>
+              <div class="honor">
+                <div class="honorTitle">🏆 Coupe de France</div>
+                <div class="honorYears">1985 • 1986 • 1990</div>
+              </div>
+            </div>
 
-<p>Palmarès majeur :</p>
-<p>🥇 Championnat de France — 1986, 1988, 1989, 1992, 1994</p>
-<p>🏆 Coupe de France — 1985, 1986, 1990</p>
+            <p>Les Sharks deviennent une référence nationale et commencent à se faire un nom en Europe grâce à leur style de jeu intense et spectaculaire.</p>
+          </div>
+        </article>
 
-<p><b>⚠️ Crise et reconstruction (1996 – 2002)</b></p>
-<p>Après des années de succès, le club traverse une période difficile. En 1996, les finances fragilisent fortement la structure sportive. En 1997, l’équipe est reléguée.</p>
+        <div class="history-mediaSlot">
+          <div class="history-mediaTop">
+            <div class="history-mediaTag">Image • 1984–1994</div>
+            <div class="history-mediaHint">Remplace par ton image : <code>images/histoire/age-dor.png</code></div>
+          </div>
+          <div class="history-mediaBox">
+            <img class="history-img" src="images/histoire/age-dor.png" alt="Age d'or (à remplacer)" onerror="this.style.display='none'; this.parentElement.classList.add('empty');">
+            <div class="history-empty">
+              <div class="history-emptyIcon">🖼️</div>
+              <div class="history-emptyText">Dépose ton image ici</div>
+            </div>
+          </div>
+        </div>
 
-<div class="image-placeholder">EMPLACEMENT IMAGE</div>
+        <article class="history-card">
+          <div class="history-head">
+            <div class="history-icon">⚠️</div>
+            <div>
+              <div class="history-era">1996 – 2002</div>
+              <h3 class="history-h3">Crise & reconstruction</h3>
+            </div>
+          </div>
+          <div class="history-body">
+            <p>Après des années de succès, le club traverse une période difficile. En <b>1996</b>, les finances fragilisent fortement la structure sportive. En <b>1997</b>, l’équipe est reléguée, marquant l’un des moments les plus compliqués de son histoire.</p>
+            <p>Mais l’ADN des Sharks repose sur la résilience.</p>
+            <p>En <b>2002</b>, le club est racheté par les actionnaires <b>Walter</b>, profondément attachés à l’histoire et au potentiel du club. Une nouvelle dynamique se met en place immédiatement.</p>
+            <div class="history-highlight">🔥 Résultat : titre de champion remporté la même année, symbole d’une renaissance spectaculaire.</div>
+            <p>Cette année marque également la transformation officielle de la ligue en <b>Ligue Magnus</b>.</p>
+          </div>
+        </article>
 
-<p>En 2002, le club est racheté par les actionnaires Walter. Résultat : titre de champion remporté la même année, symbole d’une renaissance spectaculaire.</p>
+        <div class="history-mediaRow">
+          <div class="history-mediaSlot">
+            <div class="history-mediaTop">
+              <div class="history-mediaTag">Image • 1997</div>
+              <div class="history-mediaHint"><code>images/histoire/1997.png</code></div>
+            </div>
+            <div class="history-mediaBox">
+              <img class="history-img" src="images/histoire/1997.png" alt="1997 (à remplacer)" onerror="this.style.display='none'; this.parentElement.classList.add('empty');">
+              <div class="history-empty">
+                <div class="history-emptyIcon">🖼️</div>
+                <div class="history-emptyText">Dépose ton image ici</div>
+              </div>
+            </div>
+          </div>
 
-<div class="image-placeholder">EMPLACEMENT IMAGE</div>
+          <div class="history-mediaSlot">
+            <div class="history-mediaTop">
+              <div class="history-mediaTag">Image • 2002</div>
+              <div class="history-mediaHint"><code>images/histoire/2002.png</code></div>
+            </div>
+            <div class="history-mediaBox">
+              <img class="history-img" src="images/histoire/2002.png" alt="2002 (à remplacer)" onerror="this.style.display='none'; this.parentElement.classList.add('empty');">
+              <div class="history-empty">
+                <div class="history-emptyIcon">🖼️</div>
+                <div class="history-emptyText">Dépose ton image ici</div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-<p><b>🚀 Nouvelle ère et ambitions internationales (2007 – 2015)</b></p>
-<p>Florent Walter prend les rênes du club en 2007 avec une vision internationale.</p>
+        <article class="history-card">
+          <div class="history-head">
+            <div class="history-icon">🚀</div>
+            <div>
+              <div class="history-era">2007 – 2015</div>
+              <h3 class="history-h3">Nouvelle ère & ambitions internationales</h3>
+            </div>
+          </div>
+          <div class="history-body">
+            <p>Après <b>41 ans</b> de présidence sous Raymond Ernenwein, <b>Florent Walter</b> prend les rênes du club en <b>2007</b> avec une vision claire : transformer les Haguenau Sharks en une organisation moderne et tournée vers l’international.</p>
+            <p>Le club connaît une nouvelle période de succès :</p>
 
-<div class="image-placeholder">EMPLACEMENT IMAGE</div>
+            <div class="history-honors">
+              <div class="honor">
+                <div class="honorTitle">🥇 Championnat</div>
+                <div class="honorYears">2007 • 2008 • 2010 • 2013</div>
+              </div>
+              <div class="honor">
+                <div class="honorTitle">🏆 Coupe de France</div>
+                <div class="honorYears">2008 • 2009 • 2014</div>
+              </div>
+            </div>
 
-<p><b>🌎 Le tournant américain (depuis 2015)</b></p>
-<p>Lucas Walter pousse l’ambition du club vers l’AHL. Le club s’installe dans le Colorado tout en conservant son nom historique.</p>
+            <p>Les Sharks modernisent leurs infrastructures, développent leur image de marque et attirent des talents internationaux.</p>
+          </div>
+        </article>
 
-<div class="image-placeholder">EMPLACEMENT IMAGE</div>
+        <div class="history-mediaSlot">
+          <div class="history-mediaTop">
+            <div class="history-mediaTag">Image • 2007–2015</div>
+            <div class="history-mediaHint"><code>images/histoire/2007-2015.png</code></div>
+          </div>
+          <div class="history-mediaBox">
+            <img class="history-img" src="images/histoire/2007-2015.png" alt="2007-2015 (à remplacer)" onerror="this.style.display='none'; this.parentElement.classList.add('empty');">
+            <div class="history-empty">
+              <div class="history-emptyIcon">🖼️</div>
+              <div class="history-emptyText">Dépose ton image ici</div>
+            </div>
+          </div>
+        </div>
 
-<h3>🚧 PROJET & AVENIR — UNE FRANCHISE EN CONSTRUCTION</h3>
+        <article class="history-card">
+          <div class="history-head">
+            <div class="history-icon">🌎</div>
+            <div>
+              <div class="history-era">Depuis 2015</div>
+              <h3 class="history-h3">Le tournant américain</h3>
+            </div>
+          </div>
+          <div class="history-body">
+            <p>En <b>2015</b>, <b>Lucas Walter</b>, fils du président, pousse encore plus loin l’ambition du club : intégrer l’<b>AHL</b>, l’antichambre de la <b>NHL</b>.</p>
+            <p>Le club s’installe dans le <b>Colorado</b> tout en conservant son nom historique, <b>Haguenau Sharks</b>, symbole d’un héritage européen fort et d’une identité locale préservée.</p>
+            <p>Depuis son arrivée en AHL, l’équipe évolue régulièrement au milieu de tableau dans la division Pacifique, consolidant son expérience nord-américaine et son développement stratégique.</p>
+          </div>
+        </article>
 
-<p>Les Haguenau Sharks entrent aujourd’hui dans une nouvelle phase de leur histoire : consolidation, croissance et ambition internationale.</p>
+        <div class="history-mediaSlot">
+          <div class="history-mediaTop">
+            <div class="history-mediaTag">Image • AHL</div>
+            <div class="history-mediaHint"><code>images/histoire/ahl.png</code></div>
+          </div>
+          <div class="history-mediaBox">
+            <img class="history-img" src="images/histoire/ahl.png" alt="AHL (à remplacer)" onerror="this.style.display='none'; this.parentElement.classList.add('empty');">
+            <div class="history-empty">
+              <div class="history-emptyIcon">🖼️</div>
+              <div class="history-emptyText">Dépose ton image ici</div>
+            </div>
+          </div>
+        </div>
 
-<p>🏒 Construire une équipe durable et compétitive.</p>
-<p>🎓 Développer un centre de formation d’excellence.</p>
-<p>🌍 Une identité internationale forte.</p>
-<p>🏟️ Expérience supporters et développement du club.</p>
+        <article class="history-card history-future">
+          <div class="history-head">
+            <div class="history-icon">🚧</div>
+            <div>
+              <div class="history-era">PROJET & AVENIR</div>
+              <h3 class="history-h3">Une franchise en construction</h3>
+            </div>
+          </div>
+          <div class="history-body">
+            <p>Les Haguenau Sharks entrent aujourd’hui dans une nouvelle phase de leur histoire : celle de la consolidation, de la croissance et de l’ambition internationale.</p>
 
-<p><b>🏆 Objectif final :</b> devenir une équipe dominante en AHL et viser l’élite du hockey mondial.</p>
+            <div class="future-grid">
+              <div class="future-card">
+                <div class="future-ico">🏒</div>
+                <div class="future-title">Équipe durable & compétitive</div>
+                <ul class="future-list">
+                  <li>Recrutement stratégique international</li>
+                  <li>Formation de joueurs locaux & européens</li>
+                  <li>Style de jeu moderne et identifiable</li>
+                  <li>Culture : intensité, travail, discipline</li>
+                </ul>
+              </div>
 
-</div>
+              <div class="future-card">
+                <div class="future-ico">🎓</div>
+                <div class="future-title">Centre de formation d’excellence</div>
+                <ul class="future-list">
+                  <li>Centre de développement jeunes joueurs</li>
+                  <li>Encadrement pédagogique & sportif renforcé</li>
+                  <li>Accompagnement physique, mental, technique</li>
+                  <li>Former des talents jusqu’à la NHL</li>
+                </ul>
+              </div>
+
+              <div class="future-card">
+                <div class="future-ico">🌍</div>
+                <div class="future-title">Identité internationale</div>
+                <ul class="future-list">
+                  <li>Pont Europe ↔ Amérique du Nord</li>
+                  <li>Fanbase internationale</li>
+                  <li>Marque globale, racines haguenoviennes</li>
+                </ul>
+              </div>
+
+              <div class="future-card">
+                <div class="future-ico">🏟️</div>
+                <div class="future-title">Expérience supporters</div>
+                <ul class="future-list">
+                  <li>Expérience fan immersive</li>
+                  <li>Identité visuelle forte</li>
+                  <li>Communauté digitale engagée</li>
+                  <li>Merchandising & image de marque</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="history-finalGoal">
+              <div class="goalTop">🏆 Objectif final</div>
+              <div class="goalText">Devenir une équipe dominante en AHL, viser l’élite du hockey mondial et ramener la coupe à la maison.</div>
+              <div class="goalSub">Car pour les Sharks, l’histoire n’est pas seulement un héritage. <b>C’est une promesse d’avenir.</b></div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <aside class="history-aside">
+        <div class="aside-card">
+          <div class="aside-title">🎯 Tips images</div>
+          <div class="aside-text">
+            Mets tes images dans <code>images/histoire/</code> (sur GitHub).<br>
+            Exemples : <code>1876.png</code>, <code>age-dor.png</code>, <code>2002.png</code>…
+          </div>
+        </div>
+
+        <div class="aside-card">
+          <div class="aside-title">📱 Mobile</div>
+          <div class="aside-text">
+            Sur téléphone, la timeline passe en 1 colonne et les images se placent naturellement sous chaque bloc.
+          </div>
+        </div>
+
+        <div class="aside-card">
+          <div class="aside-title">✨ Style</div>
+          <div class="aside-text">
+            Cartes vitrées, timeline “arena”, tags années, palmarès en badges…
+          </div>
+        </div>
+      </aside>
+    </div>
+
+  </div>
 </section>
+
 
 </body>
 </html>
