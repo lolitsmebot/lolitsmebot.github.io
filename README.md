@@ -2820,53 +2820,69 @@ img, svg { max-width:100%; height:auto; }
     <h2 class="sectionTitle">SHOP</h2>
     <p class="sectionSub">Boutique officielle Haguenau Sharks — ajoute tes images dans <b>images/shop/</b> et remplace les <code>src</code>.</p>
 
+<div class="history-card" style="margin-top:14px">
+  <div class="history-head">
+    <div class="history-icon">🔗</div>
+    <div>
+      <div class="history-era">IMAGES VIA DISCORD</div>
+      <h3 class="history-h3" style="margin-top:6px">Comment mettre tes images</h3>
+    </div>
+  </div>
+  <div class="history-body">
+    <p><b>1)</b> Envoie l’image sur Discord (message normal, pas forcément emoji) → clique sur l’image → <b>Ouvrir dans le navigateur</b> / <b>Copier le lien</b>.</p>
+    <p><b>2)</b> Colle ce lien dans le HTML à la place du <code>src</code> : <code>&lt;img src="https://cdn.discordapp.com/attachments/..."&gt;</code></p>
+    <p><b>Tip net :</b> ajoute <code>?size=2048</code> à la fin du lien si besoin (quand Discord le permet).</p>
+  </div>
+</div>
+
+
     <div class="shop-grid">
       <article class="shop-card">
-        <div class="shop-media"><img src="images/shop/maillot-domicile-2025-2026.png" alt="Maillot domicile 2025/2026"></div>
+        <div class="shop-media"><img src="https://cdn.discordapp.com/attachments/000000000000000000/000000000000000000/PASTE_YOUR_IMAGE.png?size=1024" alt="Maillot domicile 2025/2026"></div>
         <h3 class="shop-title">Maillot domicile 2025/2026</h3>
-        <p class="shop-meta"><code>https://cdn.discordapp.com/emojis/1473084100977098863.webp?size=4096</code></p>
+        <p class="shop-meta"><code>lien Discord (cdn.discordapp.com/...)</code></p>
       </article>
 
       <article class="shop-card">
-        <div class="shop-media"><img src="images/shop/maillot-exterieur-2025-2026.png" alt="Maillot extérieur 2025/2026"></div>
+        <div class="shop-media"><img src="https://cdn.discordapp.com/attachments/000000000000000000/000000000000000000/PASTE_YOUR_IMAGE.png?size=1024" alt="Maillot extérieur 2025/2026"></div>
         <h3 class="shop-title">Maillot extérieur 2025/2026</h3>
-        <p class="shop-meta"><code>images/shop/maillot-exterieur-2025-2026.png</code></p>
+        <p class="shop-meta"><code>lien Discord (cdn.discordapp.com/...)</code></p>
       </article>
 
       <article class="shop-card">
-        <div class="shop-media"><img src="images/shop/tshirt.png" alt="T-shirt"></div>
+        <div class="shop-media"><img src="https://cdn.discordapp.com/attachments/000000000000000000/000000000000000000/PASTE_YOUR_IMAGE.png?size=1024" alt="T-shirt"></div>
         <h3 class="shop-title">T-shirt</h3>
-        <p class="shop-meta"><code>images/shop/tshirt.png</code></p>
+        <p class="shop-meta"><code>lien Discord (cdn.discordapp.com/...)</code></p>
       </article>
 
       <article class="shop-card">
-        <div class="shop-media"><img src="images/shop/hoodie.png" alt="Pull / Hoodie"></div>
+        <div class="shop-media"><img src="https://cdn.discordapp.com/attachments/000000000000000000/000000000000000000/PASTE_YOUR_IMAGE.png?size=1024" alt="Pull / Hoodie"></div>
         <h3 class="shop-title">Pull / Hoodie</h3>
-        <p class="shop-meta"><code>images/shop/hoodie.png</code></p>
+        <p class="shop-meta"><code>lien Discord (cdn.discordapp.com/...)</code></p>
       </article>
 
       <article class="shop-card">
-        <div class="shop-media"><img src="images/shop/casquette.png" alt="Casquette"></div>
+        <div class="shop-media"><img src="https://cdn.discordapp.com/attachments/000000000000000000/000000000000000000/PASTE_YOUR_IMAGE.png?size=1024" alt="Casquette"></div>
         <h3 class="shop-title">Casquette</h3>
-        <p class="shop-meta"><code>images/shop/casquette.png</code></p>
+        <p class="shop-meta"><code>lien Discord (cdn.discordapp.com/...)</code></p>
       </article>
 
       <article class="shop-card">
-        <div class="shop-media"><img src="images/shop/bonnet.png" alt="Bonnet"></div>
+        <div class="shop-media"><img src="https://cdn.discordapp.com/attachments/000000000000000000/000000000000000000/PASTE_YOUR_IMAGE.png?size=1024" alt="Bonnet"></div>
         <h3 class="shop-title">Bonnet</h3>
-        <p class="shop-meta"><code>images/shop/bonnet.png</code></p>
+        <p class="shop-meta"><code>lien Discord (cdn.discordapp.com/...)</code></p>
       </article>
 
       <article class="shop-card">
-        <div class="shop-media"><img src="images/shop/echarpe.png" alt="Écharpe"></div>
+        <div class="shop-media"><img src="https://cdn.discordapp.com/attachments/000000000000000000/000000000000000000/PASTE_YOUR_IMAGE.png?size=1024" alt="Écharpe"></div>
         <h3 class="shop-title">Écharpe</h3>
-        <p class="shop-meta"><code>images/shop/echarpe.png</code></p>
+        <p class="shop-meta"><code>lien Discord (cdn.discordapp.com/...)</code></p>
       </article>
 
       <article class="shop-card">
-        <div class="shop-media"><img src="images/shop/palet.png" alt="Palet"></div>
+        <div class="shop-media"><img src="https://cdn.discordapp.com/attachments/000000000000000000/000000000000000000/PASTE_YOUR_IMAGE.png?size=1024" alt="Palet"></div>
         <h3 class="shop-title">Palet</h3>
-        <p class="shop-meta"><code>images/shop/palet.png</code></p>
+        <p class="shop-meta"><code>lien Discord (cdn.discordapp.com/...)</code></p>
       </article>
     </div>
   </div>
@@ -4107,13 +4123,13 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="history-mediaSlot">
           <div class="history-mediaTop">
             <div class="history-mediaTag">Image • 1876</div>
-            <div class="history-mediaHint">Remplace par ton image : <code>images/histoire/1876.png</code></div>
+            <div class="history-mediaHint">Remplace par ton image : <code>lien Discord (cdn.discordapp.com/...)</code></div>
           </div>
           <div class="history-mediaBox">
-            <img class="history-img" src="images/histoire/1876.png" alt="Haguenau Sharks 1876 (à remplacer)" onerror="this.style.display='none'; this.parentElement.classList.add('empty');">
+            <img class="history-img" src="https://cdn.discordapp.com/attachments/000000000000000000/000000000000000000/PASTE_YOUR_IMAGE.png?size=1024" alt="Haguenau Sharks 1876 (à remplacer)" onerror="this.style.display='none'; this.parentElement.classList.add('empty');">
             <div class="history-empty">
               <div class="history-emptyIcon">🖼️</div>
-              <div class="history-emptyText">Dépose ton image ici</div>
+              <div class="history-emptyText">Colle ton lien Discord dans le src</div>
             </div>
           </div>
         </div>
@@ -4148,13 +4164,13 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="history-mediaSlot">
           <div class="history-mediaTop">
             <div class="history-mediaTag">Image • 1984–1994</div>
-            <div class="history-mediaHint">Remplace par ton image : <code>images/histoire/age-dor.png</code></div>
+            <div class="history-mediaHint">Remplace par ton image : <code>lien Discord (cdn.discordapp.com/...)</code></div>
           </div>
           <div class="history-mediaBox">
-            <img class="history-img" src="images/histoire/age-dor.png" alt="Age d'or (à remplacer)" onerror="this.style.display='none'; this.parentElement.classList.add('empty');">
+            <img class="history-img" src="https://cdn.discordapp.com/attachments/000000000000000000/000000000000000000/PASTE_YOUR_IMAGE.png?size=1024" alt="Age d'or (à remplacer)" onerror="this.style.display='none'; this.parentElement.classList.add('empty');">
             <div class="history-empty">
               <div class="history-emptyIcon">🖼️</div>
-              <div class="history-emptyText">Dépose ton image ici</div>
+              <div class="history-emptyText">Colle ton lien Discord dans le src</div>
             </div>
           </div>
         </div>
@@ -4180,13 +4196,13 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="history-mediaSlot">
             <div class="history-mediaTop">
               <div class="history-mediaTag">Image • 1997</div>
-              <div class="history-mediaHint"><code>images/histoire/1997.png</code></div>
+              <div class="history-mediaHint"><code>lien Discord (cdn.discordapp.com/...)</code></div>
             </div>
             <div class="history-mediaBox">
-              <img class="history-img" src="images/histoire/1997.png" alt="1997 (à remplacer)" onerror="this.style.display='none'; this.parentElement.classList.add('empty');">
+              <img class="history-img" src="https://cdn.discordapp.com/attachments/000000000000000000/000000000000000000/PASTE_YOUR_IMAGE.png?size=1024" alt="1997 (à remplacer)" onerror="this.style.display='none'; this.parentElement.classList.add('empty');">
               <div class="history-empty">
                 <div class="history-emptyIcon">🖼️</div>
-                <div class="history-emptyText">Dépose ton image ici</div>
+                <div class="history-emptyText">Colle ton lien Discord dans le src</div>
               </div>
             </div>
           </div>
@@ -4194,13 +4210,13 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="history-mediaSlot">
             <div class="history-mediaTop">
               <div class="history-mediaTag">Image • 2002</div>
-              <div class="history-mediaHint"><code>images/histoire/2002.png</code></div>
+              <div class="history-mediaHint"><code>lien Discord (cdn.discordapp.com/...)</code></div>
             </div>
             <div class="history-mediaBox">
-              <img class="history-img" src="images/histoire/2002.png" alt="2002 (à remplacer)" onerror="this.style.display='none'; this.parentElement.classList.add('empty');">
+              <img class="history-img" src="https://cdn.discordapp.com/attachments/000000000000000000/000000000000000000/PASTE_YOUR_IMAGE.png?size=1024" alt="2002 (à remplacer)" onerror="this.style.display='none'; this.parentElement.classList.add('empty');">
               <div class="history-empty">
                 <div class="history-emptyIcon">🖼️</div>
-                <div class="history-emptyText">Dépose ton image ici</div>
+                <div class="history-emptyText">Colle ton lien Discord dans le src</div>
               </div>
             </div>
           </div>
@@ -4236,13 +4252,13 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="history-mediaSlot">
           <div class="history-mediaTop">
             <div class="history-mediaTag">Image • 2007–2015</div>
-            <div class="history-mediaHint"><code>images/histoire/2007-2015.png</code></div>
+            <div class="history-mediaHint"><code>lien Discord (cdn.discordapp.com/...)</code></div>
           </div>
           <div class="history-mediaBox">
-            <img class="history-img" src="images/histoire/2007-2015.png" alt="2007-2015 (à remplacer)" onerror="this.style.display='none'; this.parentElement.classList.add('empty');">
+            <img class="history-img" src="https://cdn.discordapp.com/attachments/000000000000000000/000000000000000000/PASTE_YOUR_IMAGE.png?size=1024" alt="2007-2015 (à remplacer)" onerror="this.style.display='none'; this.parentElement.classList.add('empty');">
             <div class="history-empty">
               <div class="history-emptyIcon">🖼️</div>
-              <div class="history-emptyText">Dépose ton image ici</div>
+              <div class="history-emptyText">Colle ton lien Discord dans le src</div>
             </div>
           </div>
         </div>
@@ -4265,13 +4281,13 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="history-mediaSlot">
           <div class="history-mediaTop">
             <div class="history-mediaTag">Image • AHL</div>
-            <div class="history-mediaHint"><code>images/histoire/ahl.png</code></div>
+            <div class="history-mediaHint"><code>lien Discord (cdn.discordapp.com/...)</code></div>
           </div>
           <div class="history-mediaBox">
-            <img class="history-img" src="images/histoire/ahl.png" alt="AHL (à remplacer)" onerror="this.style.display='none'; this.parentElement.classList.add('empty');">
+            <img class="history-img" src="https://cdn.discordapp.com/attachments/000000000000000000/000000000000000000/PASTE_YOUR_IMAGE.png?size=1024" alt="AHL (à remplacer)" onerror="this.style.display='none'; this.parentElement.classList.add('empty');">
             <div class="history-empty">
               <div class="history-emptyIcon">🖼️</div>
-              <div class="history-emptyText">Dépose ton image ici</div>
+              <div class="history-emptyText">Colle ton lien Discord dans le src</div>
             </div>
           </div>
         </div>
@@ -4345,10 +4361,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <aside class="history-aside">
         <div class="aside-card">
           <div class="aside-title">🎯 Tips images</div>
-          <div class="aside-text">
-            Mets tes images dans <code>images/histoire/</code> (sur GitHub).<br>
-            Exemples : <code>1876.png</code>, <code>age-dor.png</code>, <code>2002.png</code>…
-          </div>
+          <div class="aside-text">Mets tes images sur Discord et colle le lien (ex: <code>https://cdn.discordapp.com/attachments/...</code>) dans chaque <code>src</code> de la rubrique Histoire / Shop.</div>
         </div>
 
         <div class="aside-card">
