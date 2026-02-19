@@ -2953,51 +2953,51 @@ img, svg { max-width:100%; height:auto; }
 
     <div class="shop-grid">
       <article class="shop-card">
-        <div class="shop-media"><img src="https://cdn.discordapp.com/emojis/1473084100977098863.webp?size=1024" alt="Maillot domicile 2025/2026"></div>
+        <div class="shop-media"><img src="https://cdn.discordapp.com/attachments/1145118861587382323/1474141866097377361/IMG_4635.png?ex=6998c519&is=69977399&hm=338f628a3b8453baf7ae80fb3f9e31dc8e6791b12f5e2b09de881acdaa47de03&" alt="Maillot domicile 2025/2026"></div>
         <h3 class="shop-title">Maillot domicile 2025/2026</h3>
-        <p class="shop-meta"><code>lien Discord (cdn.discordapp.com/...)</code></p>
+        <p class="shop-meta"></p>
       </article>
 
       <article class="shop-card">
-        <div class="shop-media"><img src="https://cdn.discordapp.com/emojis/1473084037248716862.webp?size=1024" alt="Maillot extérieur 2025/2026"></div>
+        <div class="shop-media"><img src="https://cdn.discordapp.com/attachments/1145118861587382323/1474141866784985261/IMG_4636.png?ex=6998c519&is=69977399&hm=231656d6e5f184ccf5fd4432ea53ea85b601a6e337ac969e38777266b3593835&" alt="Maillot extérieur 2025/2026"></div>
         <h3 class="shop-title">Maillot extérieur 2025/2026</h3>
-        <p class="shop-meta"><code>lien Discord (cdn.discordapp.com/...)</code></p>
+        <p class="shop-meta"></p>
       </article>
 
       <article class="shop-card">
-        <div class="shop-media"><img src="https://cdn.discordapp.com/emojis/1473083956164296734.webp?size=1024" alt="T-shirt"></div>
+        <div class="shop-media"><img src="https://cdn.discordapp.com/attachments/1145118861587382323/1474141867686756464/IMG_4637.png?ex=6998c519&is=69977399&hm=57c60356ad05354c53a6dee5130024c063d20d51bcef60dbf929b3a87a185fd4&" alt="T-shirt"></div>
         <h3 class="shop-title">T-shirt</h3>
-        <p class="shop-meta"><code>lien Discord (cdn.discordapp.com/...)</code></p>
+        <p class="shop-meta"></p>
       </article>
 
       <article class="shop-card">
-        <div class="shop-media"><img src="https://cdn.discordapp.com/emojis/1473083923302056028.webp?size=1024" alt="Pull / Hoodie"></div>
+        <div class="shop-media"><img src="https://cdn.discordapp.com/attachments/1145118861587382323/1474141869167349832/IMG_4638.png?ex=6998c519&is=69977399&hm=62ce6d35378af756cdc6c9ac97bf619ab2ac350d8688fc8c951fca122f1bc09a&" alt="Pull / Hoodie"></div>
         <h3 class="shop-title">Pull / Hoodie</h3>
-        <p class="shop-meta"><code>lien Discord (cdn.discordapp.com/...)</code></p>
+        <p class="shop-meta"></p>
       </article>
 
       <article class="shop-card">
-        <div class="shop-media"><img src="https://cdn.discordapp.com/emojis/1473083901718171711.webp?size=1024" alt="Casquette"></div>
+        <div class="shop-media"><img src="https://cdn.discordapp.com/attachments/1145118861587382323/1474141869800816864/IMG_4639.png?ex=6998c519&is=69977399&hm=999a02b073408f047abe537f0429ff126e2206901293cee9806faafe5519b7aa&" alt="Casquette"></div>
         <h3 class="shop-title">Casquette</h3>
-        <p class="shop-meta"><code>lien Discord (cdn.discordapp.com/...)</code></p>
+        <p class="shop-meta"></p>
       </article>
 
       <article class="shop-card">
-        <div class="shop-media"><img src="https://cdn.discordapp.com/emojis/1473083697950625946.webp?size=1024" alt="Bonnet"></div>
+        <div class="shop-media"><img src="https://cdn.discordapp.com/attachments/1145118861587382323/1474141871558099104/IMG_4652.png?ex=6998c51a&is=6997739a&hm=bc6b5b3ba9225912a7e379547c34d587035dec5035e10749fd65d86ea3277245&" alt="Bonnet"></div>
         <h3 class="shop-title">Bonnet</h3>
-        <p class="shop-meta"><code>lien Discord (cdn.discordapp.com/...)</code></p>
+        <p class="shop-meta"></p>
       </article>
 
       <article class="shop-card">
-        <div class="shop-media"><img src="https://cdn.discordapp.com/emojis/1473084309127696579.webp?size=1024" alt="Écharpe"></div>
+        <div class="shop-media"><img src="https://cdn.discordapp.com/attachments/1145118861587382323/1474141870635352158/IMG_4640.png?ex=6998c51a&is=6997739a&hm=a189c712a66065a70abd151839f16f610fd721976452a5991397d10fc69b7f3b&" alt="Écharpe"></div>
         <h3 class="shop-title">Écharpe</h3>
-        <p class="shop-meta"><code>lien Discord (cdn.discordapp.com/...)</code></p>
+        <p class="shop-meta"></p>
       </article>
 
       <article class="shop-card">
-        <div class="shop-media"><img src="https://cdn.discordapp.com/emojis/1473083739935477840.webp?size=1024" alt="Palet"></div>
+        <div class="shop-media"><img src="https://cdn.discordapp.com/attachments/1145118861587382323/1474141871142867015/IMG_4641.png?ex=6998c51a&is=6997739a&hm=5017575c3091b0cca07501d52f193f8ecbc04aa9fc216a0762f34492bd2d1fc2&" alt="Palet"></div>
         <h3 class="shop-title">Palet</h3>
-        <p class="shop-meta"><code>lien Discord (cdn.discordapp.com/...)</code></p>
+        <p class="shop-meta"></p>
       </article>
     </div>
   </div>
@@ -4278,7 +4278,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         <div class="history-mediaSlot">
           <div class="history-mediaTop">
-            <div class="history-mediaTag">Image • 1984–1994</div>
+            <div class="history-mediaTag">1986</div>
             <div class="history-mediaHint"></div>
           </div>
           <div class="history-mediaBox">
@@ -4310,28 +4310,28 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="history-mediaRow">
           <div class="history-mediaSlot">
             <div class="history-mediaTop">
-              <div class="history-mediaTag">Image • 1997</div>
-              <div class="history-mediaHint"><code>lien Discord (cdn.discordapp.com/...)</code></div>
+              <div class="history-mediaTag">1997</div>
+              <div class="history-mediaHint"></div>
             </div>
             <div class="history-mediaBox">
-              <img class="history-img" src="https://cdn.discordapp.com/attachments/000000000000000000/000000000000000000/PASTE_YOUR_IMAGE.png?size=1024" alt="1997 (à remplacer)" onerror="this.style.display='none'; this.parentElement.classList.add('empty');">
+              <img class="history-img" src="https://cdn.discordapp.com/attachments/1145118861587382323/1474143016775319654/4EE762CD-5F40-47F4-84CB-3C8B8149AC8C.png?ex=6998c62b&is=699774ab&hm=49c92c30bbbf885f6e3b2d63ad97e063646f24596fe75fee261e1a67e60be01c&" alt="1997 (à remplacer)" onerror="this.style.display='none'; this.parentElement.classList.add('empty');">
               <div class="history-empty">
-                <div class="history-emptyIcon">🖼️</div>
-                <div class="history-emptyText">Colle ton lien Discord dans le src</div>
+                <div class="history-emptyIcon"></div>
+                <div class="history-emptyText"></div>
               </div>
             </div>
           </div>
 
           <div class="history-mediaSlot">
             <div class="history-mediaTop">
-              <div class="history-mediaTag">Image • 2002</div>
-              <div class="history-mediaHint"><code>lien Discord (cdn.discordapp.com/...)</code></div>
+              <div class="history-mediaTag">2002</div>
+              <div class="history-mediaHint"></div>
             </div>
             <div class="history-mediaBox">
               <img class="history-img" src="https://cdn.discordapp.com/attachments/000000000000000000/000000000000000000/PASTE_YOUR_IMAGE.png?size=1024" alt="2002 (à remplacer)" onerror="this.style.display='none'; this.parentElement.classList.add('empty');">
               <div class="history-empty">
-                <div class="history-emptyIcon">🖼️</div>
-                <div class="history-emptyText">Colle ton lien Discord dans le src</div>
+                <div class="history-emptyIcon"></div>
+                <div class="history-emptyText"></div>
               </div>
             </div>
           </div>
