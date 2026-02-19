@@ -2995,7 +2995,7 @@ img, svg { max-width:100%; height:auto; }
       </article>
 
       <article class="shop-card">
-        <div class="shop-media"><img src="https://cdn.discordapp.com/attachments/1145118861587382323/1474141871142867015/IMG_4641.png?ex=6998c51a&is=6997739a&hm=5017575c3091b0cca07501d52f193f8ecbc04aa9fc216a0762f34492bd2d1fc2&" alt="Palet"></div>
+        <div class="shop-media"><img src="https://cdn.discordapp.com/attachments/1145118861587382323/1474145132952555531/IMG_4641.png?ex=6998c823&is=699776a3&hm=7476542c0829902c87b4a2b0489bfe6dccd938a16a3387b9c8c9966bb33a11dc&" alt="Palet"></div>
         <h3 class="shop-title">Palet</h3>
         <p class="shop-meta"></p>
       </article>
@@ -4314,7 +4314,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <div class="history-mediaHint"></div>
             </div>
             <div class="history-mediaBox">
-              <img class="history-img" src="https://cdn.discordapp.com/attachments/1145118861587382323/1474143016775319654/4EE762CD-5F40-47F4-84CB-3C8B8149AC8C.png?ex=6998c62b&is=699774ab&hm=49c92c30bbbf885f6e3b2d63ad97e063646f24596fe75fee261e1a67e60be01c&" alt="1997 (à remplacer)" onerror="this.style.display='none'; this.parentElement.classList.add('empty');">
+              <img class="history-img" src="https://cdn.discordapp.com/attachments/1145118861587382323/1474149811996594186/640D2D57-4BFC-41C7-8A0A-A2B737F06305.png?ex=6998cc7f&is=69977aff&hm=7ece610d7d70b6da55749b8d1d9ab44e27bb1dd372ebce1a932ddc75b35786f0&" alt="1997 (à remplacer)" onerror="this.style.display='none'; this.parentElement.classList.add('empty');">
               <div class="history-empty">
                 <div class="history-emptyIcon"></div>
                 <div class="history-emptyText"></div>
