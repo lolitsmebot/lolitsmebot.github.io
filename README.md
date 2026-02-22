@@ -1867,130 +1867,12 @@ img, svg { max-width:100%; height:auto; }
   .home-arena-frame{ height: 240px; }
 }
 
-
-/* ==============================
-   IMAGE LIGHTBOX (click to zoom)
-============================== */
-img{ -webkit-tap-highlight-color: transparent; }
-img:not([data-nozoom="1"]){ cursor: zoom-in; }
-
-.lb{ position:fixed; inset:0; display:none; z-index:99999; }
-.lb.open{ display:block; }
-.lb-backdrop{
-  position:absolute; inset:0;
-  background: rgba(0,0,0,.78);
-  backdrop-filter: blur(10px);
-}
-.lb-img{
-  position:absolute; left:50%; top:50%;
-  transform: translate(-50%,-50%) scale(.98);
-  max-width: min(94vw, 1320px);
-  max-height: 90vh;
-  border-radius: 18px;
-  border: 1px solid rgba(255,255,255,.18);
-  box-shadow: 0 45px 140px rgba(0,0,0,.85);
-  background: rgba(255,255,255,.03);
-  transition: transform .18s ease;
-}
-.lb.open .lb-img{ transform: translate(-50%,-50%) scale(1); }
-.lb-close{
-  position:absolute; right:16px; top:16px;
-  width:44px; height:44px;
-  border-radius:14px;
-  border:1px solid rgba(255,255,255,.18);
-  background: rgba(255,255,255,.06);
-  color:#fff;
-  font-size:18px;
-  cursor:pointer;
-}
-.lb-hint{
-  position:absolute;
-  left:50%;
-  bottom:18px;
-  transform:translateX(-50%);
-  padding:8px 12px;
-  border-radius:999px;
-  border:1px solid rgba(255,255,255,.14);
-  background: rgba(0,0,0,.35);
-  color: rgba(255,255,255,.85);
-  font-size:12px;
-  letter-spacing:1px;
-}
-
-
-/* ==============================
-   ULTRA DESIGN PACK (no layout break)
-============================== */
-:root{
-  --glass: rgba(255,255,255,.05);
-  --glass2: rgba(255,255,255,.03);
-  --line: rgba(255,255,255,.10);
-  --glowRed: rgba(211,47,47,.30);
-  --glowCyan: rgba(0,188,212,.22);
-}
-
-html{ scroll-behavior:smooth; }
-::selection{ background: rgba(211,47,47,.35); color:#fff; }
-
-.header{ border-bottom-color: rgba(211,47,47,.85); }
-.nav-link{ border: 1px solid transparent; }
-.nav-link:hover{ background: rgba(255,255,255,.03); border-color: rgba(255,255,255,.08); }
-.nav-link.active{ background: rgba(211,47,47,.14); border-color: rgba(211,47,47,.35); }
-
-.section-title{ filter: drop-shadow(0 0 28px rgba(211,47,47,.28)); }
-
-.player-card, .news-card, .standings-table, .shop-card, .history-card, .aside-card, .future-card{
-  background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(0,0,0,.26)) !important;
-  box-shadow: 0 22px 70px rgba(0,0,0,.55);
-}
-.player-card::before, .news-card::before, .shop-card::before{
-  content:"";
-  position:absolute; inset:-1px;
-  border-radius: inherit;
-  pointer-events:none;
-  background: radial-gradient(600px 240px at 20% 10%, rgba(211,47,47,.20), transparent 60%),
-              radial-gradient(600px 240px at 80% 90%, rgba(0,188,212,.14), transparent 60%);
-  opacity:.9;
-  mix-blend-mode: screen;
-}
-.player-card:hover, .news-card:hover, .shop-card:hover{
-  transform: translateY(-10px);
-  box-shadow: 0 35px 110px rgba(0,0,0,.75) !important;
-}
-
-.btn{
-  border: 1px solid rgba(255,255,255,.10);
-  position:relative;
-  overflow:hidden;
-}
-.btn::after{
-  content:"";
-  position:absolute; inset:-40% -60%;
-  background: linear-gradient(120deg, transparent 0%, rgba(255,255,255,.20) 35%, transparent 60%);
-  transform: translateX(-30%);
-  transition: transform .45s ease;
-  opacity:.55;
-}
-.btn:hover::after{ transform: translateX(30%); }
-
-.reveal{ opacity:0; transform: translateY(14px); transition: opacity .45s ease, transform .45s ease; }
-.reveal.in{ opacity:1; transform: translateY(0); }
-
-img{ image-rendering:auto; }
-
 </style>
 </head>
 <body>
-
-<script>
-  // ✅ Mets ton logo ici (lien Discord direct cdn.discordapp.com/...)
-  // Exemple : https://cdn.discordapp.com/attachments/123/456/logo.png?size=512
-  window.SHARKS_LOGO_URL = "https://cdn.discordapp.com/attachments/000000000000000000/000000000000000000/PASTE_YOUR_LOGO.png?size=512";
-</script>
-
     <!-- Loading -->
     <div class="loading" id="loading">
-        <img class="loading-logo" data-logo="1"><img src="https://cdn.discordapp.com/emojis/1472590941435990037.webp?size=96" class="logo">
+        <img class="loading-logo"><img src="https://cdn.discordapp.com/emojis/1472590941435990037.webp?size=96" class="logo">
         <div class="loading-text">HAGUENAU SHARKS</div>
     </div>
 
@@ -1998,7 +1880,7 @@ img{ image-rendering:auto; }
     <header class="header" id="header">
         <div class="container">
             <a href="#" class="logo">
-                <img class="logo-img" data-logo="1"><img src="https://cdn.discordapp.com/emojis/1472590941435990037.webp?size=96" class="logo">
+                <img class="logo-img"><img src="https://cdn.discordapp.com/emojis/1472590941435990037.webp?size=96" class="logo">
             </a>
             <nav class="nav">
                 <a href="#home" class="nav-link">Home</a>
@@ -4616,101 +4498,6 @@ document.addEventListener("DOMContentLoaded", () => {
   </div>
 </section>
 
-
-
-<script>
-/* ===== Auto-logo (Discord) ===== */
-document.addEventListener("DOMContentLoaded", () => {
-  const url = (window.SHARKS_LOGO_URL || "").trim();
-  if(!url) return;
-
-  const logoImgs = new Set([
-    ...document.querySelectorAll('img.logo-img'),
-    ...document.querySelectorAll('img.loading-logo'),
-    ...document.querySelectorAll('img[data-logo="1"]'),
-    ...document.querySelectorAll('img[alt*="logo" i]'),
-  ]);
-
-  logoImgs.forEach(img => {
-    img.setAttribute("src", url); // force partout
-    img.setAttribute("loading","eager");
-    img.setAttribute("decoding","async");
-    img.dataset.nozoom = "1"; // évite le zoom sur le logo (retire si tu veux)
-  });
-});
-</script>
-
-
-<!-- LIGHTBOX (zoom images) -->
-<div id="imgLightbox" class="lb" aria-hidden="true">
-  <div class="lb-backdrop"></div>
-  <button class="lb-close" aria-label="Fermer">✕</button>
-  <img class="lb-img" alt="">
-  <div class="lb-hint">Clique en dehors ou ESC pour fermer</div>
-</div>
-
-
-<script>
-/* ===== Lightbox ===== */
-(() => {
-  const lb = document.getElementById("imgLightbox");
-  if(!lb) return;
-  const lbImg = lb.querySelector(".lb-img");
-  const closeBtn = lb.querySelector(".lb-close");
-  const backdrop = lb.querySelector(".lb-backdrop");
-
-  const open = (src, alt) => {
-    lbImg.src = src;
-    lbImg.alt = alt || "";
-    lb.classList.add("open");
-    lb.setAttribute("aria-hidden","false");
-    document.documentElement.style.overflow = "hidden";
-  };
-  const close = () => {
-    lb.classList.remove("open");
-    lb.setAttribute("aria-hidden","true");
-    lbImg.src = "";
-    document.documentElement.style.overflow = "";
-  };
-
-  document.addEventListener("click", (e) => {
-    const img = e.target.closest("img");
-    if(!img) return;
-    if(img.dataset.nozoom === "1") return;
-
-    const r = img.getBoundingClientRect();
-    if(Math.max(r.width, r.height) < 46) return;
-
-    const src = img.currentSrc || img.src;
-    if(!src) return;
-    open(src, img.alt);
-  });
-
-  closeBtn.addEventListener("click", close);
-  backdrop.addEventListener("click", close);
-  document.addEventListener("keydown", (e)=>{ if(e.key === "Escape") close(); });
-})();
-</script>
-
-
-<script>
-/* ===== Reveal animations (safe) ===== */
-document.addEventListener("DOMContentLoaded", () => {
-  const items = document.querySelectorAll(".player-card, .news-card, .standings-table, .shop-card, .history-card, .future-card, .aside-card");
-  items.forEach(el => el.classList.add("reveal"));
-
-  const io = new IntersectionObserver((entries)=>{
-    entries.forEach(e=>{
-      if(e.isIntersecting){
-        e.target.classList.add("in");
-        io.unobserve(e.target);
-      }
-    });
-  }, { threshold: 0.12 });
-
-  items.forEach(el => io.observe(el));
-});
-</script>
 
 </body>
 </html>
